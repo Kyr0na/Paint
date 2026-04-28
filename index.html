@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaintCreate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <div id="menu">
+            <div class="slider">
+                <input type="range" id="idSlider" min="1" max="30" step="1" value="3">
+                <div class="slider-value" id="sliderValue">3px</div>
+            </div>
+            <button id="clearBut" title="Clear Canvas">🗑️</button>
+        </div>
+        <canvas id="can" width="500" height="500"></canvas>
+    </div>
+    <script src="script/index.js"></script>
+</body>
+</html>
